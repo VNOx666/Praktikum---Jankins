@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'GANTI_USERNAME_DOCKERHUB/snovamne/simple-app'
+        IMAGE_NAME = 'snovamne/simple-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
 
