@@ -19,7 +19,7 @@ def init_db():
     if cursor.fetchone()[0] == 0:
         cursor.execute('''
             INSERT INTO mahasiswa (nama, matakuliah, status)
-            VALUES ('Moch Noval Eka Saputra', 'Komputasi Awan', 'Berhasil Terhubung ke Database & Docker')
+            VALUES ('Barra Narendra Hawajirin', 'Komputasi Awan', 'Berhasil Terhubung ke Database & Docker')
         ''')
     conn.commit()
     conn.close()
